@@ -1,0 +1,244 @@
+.navbar{
+    border-bottom: #0c25a0 solid 5px ;
+}
+
+#authors img{
+    margin-top: -70px;
+    width: 100px;
+    height: 100px;
+}
+
+#services .card:hover{
+background:#2d3436;
+color:#ffff;
+}
+body
+{
+    background: linear-gradient(to right bottom,#eef4f4,#dee0e8,#9d9ea1);
+}
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 200px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #343a40; /* Dark button background color */
+    border: none;
+    color: white;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .search-button:hover {
+    background-color: #152f49; /* Darker background color on hover */
+  }
+  /* Style the carousel and custom caption */
+.carousel {
+    margin-top: 20px; /* Add spacing between the carousel and content */
+  }
+  
+  .custom-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the caption */
+    border-radius: 10px; /* Rounded corners for the caption */
+  }
+  
+  /* Style the custom carousel controls */
+  .custom-control {
+    background-color: #007bff; /* Blue background color for controls */
+    border-radius: 50%; /* Circular shape for controls */
+    width: 40px; /* Width of controls */
+    height: 40px; /* Height of controls */
+    margin-top: -20px; /* Adjust the vertical position of controls */
+  }
+  
+  .custom-control:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  /* Style the navigation bar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #ffffff; /* White text color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue text color on hover */
+  }
+  
+  /* Style the navigation toggler icon */
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the toggler icon */
+  }
+  
+  /* Add animation to the navigation links */
+  .navbar-nav .nav-link::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1219eea1; /* Blue color for the animation line */
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover::before {
+    width: 100%;
+  }
+  /* Style the "About" section */
+.about-content {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+  }
+  
+  /* Add margin to the top of the "About" section */
+  #about {
+    margin-top: 50px;
+  }
+  
+  /* Style the "Services" section */
+.services-content {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .services-content h2 {
+    font-size: 36px;
+  }
+  
+  .services-content p {
+    font-size: 18px;
+  }
+  
+  /* Style the service cards */
+  .service-card {
+    background-color: #1d1d1d; /* Darker background color for cards */
+    border: none; /* Remove card borders */
+    color: #ffffff; /* White text color */
+    transition: transform 0.2s; /* Add a transform effect on hover */
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  /* Style the "Location" section */
+  .location-content {
+    margin-top: 50px;
+  }
+  
+  .location-content h2 {
+    font-size: 36px;
+  }
+  /* Style the "Contact" section */
+.contact-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .contact-form h2 {
+    font-size: 26px;
+  }
+  
+  /* Style the "Social Links" section */
+  .social-links {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .social-links h2 {
+    font-size: 26px;
+  }
+  
+  .social-buttons {
+    margin-top: 10px;
+  }
+  
+  .social-buttons a {
+    margin-bottom: 10px;
+  }
+  .site-footer {
+    background-color: #343a40;
+    padding: 50px 0;
+    color: #fff;
+  }
+  
+  .site-footer h4 {
+    color: #fff;
+  }
+  
+  .site-footer p {
+    color: #b0bec5;
+  }
+  
+  .site-footer a {
+    color: #b0bec5;
+  }
+  
+  .site-footer a:hover {
+    color: #fff;
+  }
+  
+  .site-footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .site-footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .site-footer .list-inline-item a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #b0bec5;
+  }
+  
+  .site-footer .list-inline-item a:hover {
+    color: #fff;
+  }
+  
